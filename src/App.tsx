@@ -3,7 +3,7 @@ import { Box, SxProps, Theme } from "@mui/material";
 
 // 使用するコンポートをインポート
 import { Route, Routes } from "react-router-dom";
-import { TopPage } from "./pages/TopPage";
+import { HomePage } from "./pages/HomePage";
 import { SamplePage } from "./pages/SamplePage";
 
 // Appのメインの実装（表示する画面とpathを定義）
@@ -12,7 +12,7 @@ export const App = () => {
     <Box className="App" sx={sx}>
       <Routes>
         {/* トップページ*/}
-        <Route path="/" element={<TopPage />} />
+        <Route path="/" element={<HomePage />} />
         {/* サンプルページ */}
         <Route path="/sample" element={<SamplePage />} />
       </Routes>
