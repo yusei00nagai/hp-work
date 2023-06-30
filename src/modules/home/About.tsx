@@ -52,10 +52,14 @@ const sx: SxProps<Theme> = {
       xs: "20% 50%",
       md: "100 100",
     },
+<<<<<<< Updated upstream
     objectFit : {
       xs: "cover",
       md: "cover",
     },
+=======
+    objectFit: "cover",
+>>>>>>> Stashed changes
     paddingTop: "30px",
     
   },
