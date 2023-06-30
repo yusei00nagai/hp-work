@@ -8,7 +8,6 @@ export const About = () => {
       <Box className="About-Title-under">私たちについて</Box>
 
       <img className="About-Content-Img" src={ AboutImg } alt="about-img"/>
-
       <Box className="About-Content-Text">副業人材を主体とした<span>「業務委託サービス」</span>です。<br className="About-br"></br>
         通常では人材派遣の市場に出てこないような大企業に勤めているベテランのエンジニアや開発の中核を担う<br className="About-br"></br>
         フリーランスエンジニアが<span>現在約100名</span>ほど所属しています。<p></p>
@@ -52,16 +51,8 @@ const sx: SxProps<Theme> = {
       xs: "20% 50%",
       md: "100 100",
     },
-<<<<<<< Updated upstream
-    objectFit : {
-      xs: "cover",
-      md: "cover",
-    },
-=======
     objectFit: "cover",
->>>>>>> Stashed changes
     paddingTop: "30px",
-    
   },
   "span" : {
     color: "#22A1B9",
